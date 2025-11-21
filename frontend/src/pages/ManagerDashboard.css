@@ -1,0 +1,72 @@
+.mgr-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.mgr-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.mgr-section {
+  margin-bottom: 40px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-btn, .create-btn {
+  padding: 8px 14px;
+  border: none;
+  background: #2196F3;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-btn:hover, .create-btn:hover {
+  background: #0b7dda;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.styled-table thead {
+  background: #2196F3;
+  color: white;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.styled-table tbody tr:hover {
+  background: #f5f5f5;
+}
+
+.shift-form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) auto;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.shift-form input,
+.shift-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
